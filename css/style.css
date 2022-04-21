@@ -281,6 +281,28 @@ textarea {
   left: -5px;
 }
 
+.about-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding-block: 50px;
+}
+
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #f0ead6;
+}
+
+#social_img {
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;

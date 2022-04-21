@@ -263,6 +263,22 @@ textarea {
   left: -5px;
 }
 
+.about-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding-block: 50px;
+}
+
+#skills {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: $previewShadow;
+}
+
+#social_img {
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
